@@ -150,7 +150,7 @@ section h2 {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(3, 1fr));
+  grid-template-columns: 1fr; /* One column */
   gap: 15px;
   padding: 0 10%;
   margin-bottom: 40px;
@@ -162,6 +162,7 @@ section h2 {
   object-fit: cover;
   height: 200px;
 }
+
 
 /* Footer */
 footer {
@@ -178,4 +179,5 @@ footer a {
 footer a:hover {
   color: #fff;
 }
+
 
